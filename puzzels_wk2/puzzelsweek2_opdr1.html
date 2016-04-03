@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	
+	<body>
+			<input type="button" value="vergelijken" onclick="vergelijkWoorden()">
+		<script>
+			var vergelijkWoorden = function(){
+				woord1 = prompt("voer het eerste woord in");
+				woord2 = prompt("voer het 2de woord in");
+				lengtewoord1 = woord1.length;
+				lengtewoord2 = woord2.length;
+				if (lengtewoord1 > lengtewoord2) {
+					alert("het eerste woord " + woord1 + " was het langst, het woord was " + lengtewoord1 + " tekens")
+				} else if (lengtewoord1 < lengtewoord2) {
+					alert("het tweede woord " + woord2 + " was het langst, het woord was " + lengtewoord2 + " tekens")
+				} else{
+					alert("de woorden " + woord1 + " en " + woord2 + " zijn evenlang, namenlijk " + lengtewoord2 + " tekens")
+				};
+									
+			};
+
+		</script>
+	</body>
+
+</html
